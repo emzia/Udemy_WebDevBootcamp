@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Wed, Feb 19, 2020 -- Section 4 (38)-->
+    <title>Register</title>
+</head>
+<body>
+    <form>
+    <h1>Register</h1>
+    <div>
+        <label>First Name:</label>
+        <input name="firstname" type="text" placeholder="Jane" required>
+        <label>Last Name:</label>
+        <input name="lastname" type="text" placeholder="Doe" required>
+    </div>
+    <div>
+        <label>Male:</label>
+        <input name="gender" type="radio" id="male" required>
+        <label>Female:</label>
+        <input name="gender" type="radio" id="female" required>
+        <label>Other:</label>
+        <input name="gender" type="radio" id="other" required>
+    </div>
+    <div>
+        <label>Email:</label>
+        <input name="email" type="email" placeholder="jdoe@domain.com" required>
+        <label>Password:</label>
+        <input name="password" type="password" minlength="5" maxlength="10" required>
+    </div>
+    <div>
+        <label>Birthday</label>
+        <input name="birthday" type="date" required>
+    </div>
+        <label>I agree to the terms and conditions</label>
+        <input name="terms" type="radio" required>
+    <div>
+        <input type="submit">
+    </div>
+    </form>
+</body>
+</html>
